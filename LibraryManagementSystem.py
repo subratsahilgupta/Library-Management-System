@@ -24,13 +24,6 @@ class Library:
             f.write("\n".join(updated_booksBorrwed))
 
 
-    # def allRecords(self,studentName):
-    #     with open(f"{studentName}records.txt","r") as f2:
-    #                     for entry in f2.readlines():
-    #                         data = self.name + " " + entry.strip() + " " + "\n"  #removes new line characters
-    #                         with open("allRecords.txt","a") as f1:  
-    #                             f1.write(data)       
-    
 class Student(Library):
     
     def __init__(self,name, unversityRollno,library_instance):
